@@ -7,6 +7,8 @@
   <title>SIP</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
     integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 
 <body>
@@ -14,19 +16,29 @@
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div style="width:100%; text-align: center;"><h1><b>Capstone Project Sistem Informasi Perusahaan</b></h1></div>
   </nav>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="mx-auto order-0" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Produk Capstone Project SIP
+            <span class="sr-only">(current)</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="favorite.html">Form vooting</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
 
 
 
   <!-- data-panel -->
-  <div class="container mt-5 ">
-    <!--search bar-->
-    
-    <!--veiw-->
-    <div class="clearfix"></div>
+  <div class="container">
    
     <!-- data-panel -->
-    <div class="row" id="data-panel">
+    <div class="row" style="margin-top: 10px;" id="data-panel">
       <div class="col-sm-4">
         <div class="card mb-3">
           <img class="card-img-top " src="img/1.jpg" alt="Card image cap">
@@ -41,7 +53,7 @@
           <img class="card-img-top " src="img/2.jpg" alt="Card image cap">
           <div class="card-body movie-item-body">
             <h5 class="card-title">Kelompok 2</h5>
-            <h6 class="card-title">Link Video Produk : </h5>
+            <a type="button" class="btn btn-primary" href="https://youtu.be/-lXcjVJTSXM" target="_blank" >Buka Video Produk</a>
           </div>
         </div>
       </div>
@@ -50,7 +62,7 @@
           <img class="card-img-top " src="img/3.jpg" alt="Card image cap">
           <div class="card-body movie-item-body">
             <h5 class="card-title">Kelompok 3</h5>
-            <h6 class="card-title">Link Video Produk : </h5>
+            <a type="button" class="btn btn-primary" href="https://youtu.be/eU_9kwadA0E" target="_blank" >Buka Video Produk</a>
           </div>
         </div>
       </div>
@@ -70,7 +82,7 @@
           <img class="card-img-top " src="img/5.jpg" alt="Card image cap">
           <div class="card-body movie-item-body">
             <h5 class="card-title">Kelompok 5</h5>
-            <h6 class="card-title">Link Video Produk : </h5>
+            <a type="button" class="btn btn-primary" href="https://www.youtube.com/watch?v=4mpMZlYfCgY" target="_blank" >Buka Video Produk</a>
           </div>
         </div>
       </div>
@@ -79,49 +91,17 @@
           <img class="card-img-top " src="img/6.jpg" alt="Card image cap">
           <div class="card-body movie-item-body">
             <h5 class="card-title">Kelompok 6</h5>
-            <h6 class="card-title">Link Video Produk : </h5>
+            <a type="button" class="btn btn-primary" href="https://youtu.be/4pxYKArSRBc" target="_blank" >Buka Video Produk</a>
           </div>
-        </div>
-      </div>
-    </div>
-
-
-  <!-- Modal -->
-  <div class="modal fade" id="show-movie-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
-    aria-hidden="true">
-    <div class="modal-dialog modal-lg" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="show-movie-title">Modal title</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body" id="show-movie-body">
-          <div class="row">
-            <div class="col-sm-8" id="show-movie-image">
-            </div>
-            <div class="col-sm-4">
-              <p><em id="show-movie-date"></em></p>
-              <p id="show-movie-description"></p>
-            </div>
-          </div>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
         </div>
       </div>
     </div>
   </div>
 
   <!-- Pagination -->
-  <nav aria-label="Page navigation">
-    <ul class="pagination justify-content-center" id="pagination">
-      <li class="page-item">
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScLJDOKOyA6XdnF-YUcNq4sD-F9qIU_2RKB5TJEOj9aUohJUw/viewform?embedded=true" width="640" height="725" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-      </li>
-    </ul>
-  </nav>
+  <!-- <nav aria-label="Page navigation">
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScLJDOKOyA6XdnF-YUcNq4sD-F9qIU_2RKB5TJEOj9aUohJUw/viewform?embedded=true" width="840" height="1019" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+  </nav> -->
 
 </body>
 
